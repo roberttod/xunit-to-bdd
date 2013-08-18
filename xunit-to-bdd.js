@@ -17,7 +17,7 @@ module.exports = function (sourceCode, options) {
 
   function describe(name, func) {
     name = name.replace(/(Test|test_)/, "");
-    return "describe(\"" + name + "\", " + func + ");\n";
+    return "describe(\"" + name + "\", " + func + ");\n\n";
   }
 
   function it(name, func) {
