@@ -1,0 +1,26 @@
+{
+  "name": "xunit-to-bdd",
+  "version": "0.0.0",
+  "description": "Convert xUnit style tests to BDD",
+  "main": "xunit-to-bdd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roberttod/xunit-to-bdd.git"
+  },
+  "author": "Robert Tod",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/roberttod/xunit-to-bdd/issues"
+  },
+  "dependencies": {
+    "falafel": "~0.3.1",
+    "grunt": "~0.4.1",
+    "js-beautify": "~1.4.0"
+  }
+}
