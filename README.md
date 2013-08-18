@@ -21,3 +21,13 @@ testFile = xUnitToBDD(testFile, {
 });
 
 ```
+
+
+Known issues
+------------
+
+This is still in very early development, I wouldn't recommend using it yet.
+
+* Async test case not yet supported
+* Not all asserts are supported
+* The message from asserts is currently discarded (perhaps these could bubble up to the nearest it)
